@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Battle Royale 3D</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="hud">
+  <b>BATTLE ROYALE</b>
+  <span>PV: <strong id="hp">100</strong></span>
+  <span>Éliminations: <strong id="kills">0</strong></span>
+  <span>Bots restants: <strong id="remaining">10</strong></span>
+</div>
+<div id="crosshair">+</div>
+<div id="hint">ZQSD / WASD / flèches : déplacer · souris : regarder · clic : tirer · Shift : courir</div>
+<div id="error"></div>
+<div id="menu">
+  <h1 id="title">BATTLE ROYALE</h1>
+  <p id="subtitle">Grande ville 3D · 10 bots · zone qui rétrécit</p>
+  <button id="play" type="button">JOUER</button>
+</div>
+<script type="module" src="game.js"></script>
+</body>
+</html>

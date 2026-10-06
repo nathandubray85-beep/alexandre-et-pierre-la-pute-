@@ -1,0 +1,7 @@
+services:
+  battle-royale:
+    build: .
+    container_name: battle-royale-3d
+    ports:
+      - "8080:80"
+    restart: unless-stopped
